@@ -26,7 +26,7 @@ try{//nvm
     },
     {//2
       input:{
-        items:["neonevolution-neon/1","sand/1"],
+        items:["neon-evolution-neon/1","sand/1"],
       },
       output:{
         items:["thorium/1","surge-alloy/2"],
