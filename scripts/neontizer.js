@@ -18,22 +18,16 @@ try{//nvm
       },
       craftTime:80,
     },*/
-    {//1  you can skip recipe properties
-      input:{
-        items:["sand/1","lead/1"],
-      },
-      craftTime:12
-    },
-    {//2
+    {//1
       input:{
         items:["neon-evolution-neon/1","copper/1"],
       },
       output:{
         items:["neon-evolution-neon-copper/1"]
       },
-      craftTime:60
+      craftTime:12
     },
-    {//3
+    {//2
       input:{
         items:["pyratite/1","blast-compound/1"],
       },
@@ -42,7 +36,7 @@ try{//nvm
       },
       craftTime:72
     },
-    {//4
+    {//3
       input:{
         items:["sand/1"],
         power:15
