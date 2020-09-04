@@ -1,1 +1,1 @@
-require("NeonEvolution/neontizer");
+require("neontizer");
