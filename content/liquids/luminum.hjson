@@ -1,0 +1,8 @@
+name: Luminum
+description: Neon in liquid form, has a high concentration of lumens.
+temperature: 0.1
+heatCapacity: 2.0
+viscosity: 0.2
+effect: melting
+color: c97d82
+lightColor: c97d82
