@@ -26,11 +26,10 @@ try{//nvm
     },
     {//2
       input:{
-        items:["neon-evolution-neon/1","sand/1"],
+        items:["neon-evolution-neon/1","copper/1"],
       },
       output:{
-        items:["thorium/1","surge-alloy/2"],
-        power:10
+        items:["neon-evolution-neon-copper/1"]
       },
       craftTime:60
     },
