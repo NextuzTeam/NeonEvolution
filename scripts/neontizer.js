@@ -3,7 +3,7 @@ try{//nvm
   const multiLib=require("multi-lib2/wrapper");
   //you can use GenericSmelter instead GenericCrafter
                                           // ▼this has to be same with .json file name
-  const multi2=multiLib.extend(GenericCrafter,"Neontizer",/*Array [] not {} ->*/[
+  const multi2=multiLib.extend(GenericCrafter,"neontizer",/*Array [] not {} ->*/[
     /*default form for each recipes. You can change values.
     {
       input:{
@@ -25,7 +25,7 @@ try{//nvm
       output:{
         items:["neon-evolution-neon-copper/1"]
       },
-      craftTime:12
+      craftTime:30
     },
     {//2
       input:{
@@ -72,19 +72,12 @@ try{//nvm
   hasPower
   */
   //using example without .json file. I don't recommand this because you can't use mod item as requirements.
-  multi2.localizedName="Neontizer";
-  multi2.description="multi2_";
-  multi2.itemCapacity= 30;
-  multi2.liquidCapacity= 20;
-  multi2.size= 4;
-  multi2.health= 100;
-  multi2.craftEffect= Fx.pulverizeMedium;
-  multi2.updateEffect=Fx.none;
+  
   /*true: dump items and liquids of output according to button
   false: dump items and liquids of output unconditionally*/
-  multi2.dumpToggle=true;
+ 
 
-  multi2.requirements(Category.crafting,ItemStack.with(Items.copper,75));
+
 
 }
 catch(err){
