@@ -1,1 +1,5 @@
-
+type: material
+name: Neon
+hardness: 3
+cost: 4
+color: be23c7
