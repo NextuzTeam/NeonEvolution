@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Tier-1 Melter"
+description: "Uses Neon to make Luminum."
+liquidCapacity: 15
+updateEffect: smeltsmoke
+outputLiquid: {
+  liquid: luminum
+  amount: 2.0
+}
+size: 2
+hasLiquids: true
+hasPower: true
+craftTime: 20
+consumes: {
+  power: 2.0
+  items: neon/2
+  liquid: water/1.0
+}
+requirments: [
+  copper/50
+  lead/50
+  neon/50
+  titanium/20
+]
+category: crafting
+researc: neontizer
+idleSound: respawning
+idleSoundVolume: 0.5
