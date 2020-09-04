@@ -1,3 +1,13 @@
 localizedName: Neontizer
+type: GenericCrafter
 description: Transforms ores into their Neon versions.
+health: 100
 size: 3
+configurable: true
+hasItems: true
+hasPower: true
+hasLiquids: true
+outputsPower: true
+requirements: [
+ copper/60
+]
