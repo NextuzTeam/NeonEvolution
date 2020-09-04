@@ -10,6 +10,7 @@ outputLiquid: {
 size: 2
 hasLiquids: true
 hasPower: true
+hasItems: true
 craftTime: 20
 consumes: {
   power: 2.0
