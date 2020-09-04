@@ -8,6 +8,9 @@ hasItems: true
 hasPower: true
 hasLiquids: true
 outputsPower: true
+consume: [
+ power:60
+]
 requirements: [
  copper/60
 ]
