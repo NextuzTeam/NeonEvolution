@@ -13,7 +13,6 @@ hasPower: true
 hasItems: true
 craftTime: 20
 consume: {
-  power: 2.0
   item: neon/2
   liquid: water/2
 }
