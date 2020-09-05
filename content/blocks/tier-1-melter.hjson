@@ -14,16 +14,8 @@ hasItems: true
 craftTime: 20
 consume: {
   power: 2.0
-  items:{
-     items:[
-     neon/2
-     ]
-  }
-  liquid: {
-    liquid: [
-    water/1.0
-    ]
-} 
+  items: neon/2
+  liquids: water/2
 }
 requirements: [
   copper/50
