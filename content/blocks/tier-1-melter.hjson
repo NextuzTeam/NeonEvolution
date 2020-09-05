@@ -5,7 +5,7 @@ liquidCapacity: 15
 updateEffect: smeltsmoke
 outputLiquid: {
   liquid: luminum
-  amount: 2.0
+  amount: 3.0
 }
 size: 2
 hasLiquids: true
@@ -14,10 +14,11 @@ hasItems: true
 craftTime: 20
 consume: {
   power: 2.0
-  items: neon/2
-  liquids: water/2
+  item: neon/2
+  liquid: water/2
 }
 requirements: [
+  power: 2.0
   copper/50
   lead/50
   neon/50
