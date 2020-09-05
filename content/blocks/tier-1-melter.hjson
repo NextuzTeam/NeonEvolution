@@ -19,7 +19,7 @@ consumes: {
      Neon/2
      ]
   }
-  liquid:{
+  liquid: {
  water/1.0
 }
 }
