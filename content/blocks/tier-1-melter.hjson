@@ -15,7 +15,7 @@ craftTime: 20
 consumes: {
   power: 2.0
   item:{
-   Neon/2
+   Neon/2,
   }
   liquid:{
  water/1.0
