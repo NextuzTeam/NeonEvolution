@@ -5,3 +5,5 @@ Team Nexus is made by 3 people:
 `Pietro303HD`
 `FlinTyX`
 `Niirk`
+## Intregations
+Neon Evolution has younggam/multi-lib2 inside of it, so we don't have to add any dependencies.
