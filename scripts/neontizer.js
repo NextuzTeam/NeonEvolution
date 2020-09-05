@@ -1,6 +1,6 @@
 try{//nvm
   //get script from multi-lib2
-  const multiLib=require("multi-lib2/wrapper");
+  const multiLib=require("wrapper");
   //you can use GenericSmelter instead GenericCrafter
                                           // ▼this has to be same with .json file name
   const multi2=multiLib.extend(GenericCrafter,"neontizer",/*Array [] not {} ->*/[
