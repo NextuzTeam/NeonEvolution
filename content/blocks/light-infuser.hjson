@@ -10,7 +10,7 @@ consumes: {
   power: 10
   items: {
     items: [
-      metaglass
+      metaglass/1
     ]
   }
 }
@@ -23,4 +23,4 @@ category: crafting
 research: kiln
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: neon/1
+outputItem: neon/3
