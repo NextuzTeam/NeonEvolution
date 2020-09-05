@@ -8,5 +8,5 @@ requirements: [
   neon/3
 ]
 category: distribution
-speed: 0.35
+speed: 0.15
 research: titanium-conveyor
