@@ -20,8 +20,10 @@ consumes: {
      ]
   }
   liquid: {
- water/1.0
-}
+    liquid: [
+    water/1.0
+    ]
+} 
 }
 requirements: [
   copper/50
