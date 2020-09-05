@@ -1,9 +1,9 @@
-name: Neontizer
+name: T-1 Neontizer
 description: makes neon stuff
 size: 3
 requirements: [
   lead/50
-  titanium/80
+  neon/80
   silicon/60
 ]
 category: crafting
