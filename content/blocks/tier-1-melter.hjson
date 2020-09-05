@@ -16,7 +16,7 @@ consumes: {
   power: 2.0
   items:{
      items:[
-     Neon/2
+     neon/2
      ]
   }
   liquid: {
