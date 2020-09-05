@@ -1,0 +1,12 @@
+type: Conveyor
+name: Neon Conveyor
+description: The power of neon light in this conveyor make the items move incredibly fast.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  neon/3
+]
+category: distribution
+speed: 0.35
+research: titanium-conveyor
