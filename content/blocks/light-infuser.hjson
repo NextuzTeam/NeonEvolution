@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Light Infuser
+description: makes neon
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 25
+updateEffect: smeltsmoke
+consumes: {
+  power: 10
+  items: {
+    items: [
+      metaglass
+    ]
+  }
+}
+requirements: [
+  lead/50
+  titanium/80
+  silicon/60
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: neon/1
