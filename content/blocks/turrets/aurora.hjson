@@ -47,7 +47,7 @@ reloadMultiplier: 1
 recoil: 0
 knockback: 0.01
 hitTiles: true
-status: melting 
+status: none
 statusDuration: 10
 collidesTiles: true
 collidesTeam: false
@@ -79,7 +79,7 @@ reloadMultiplier: 1
 recoil: 0
 knockback: 0.01
 hitTiles: true
-status: melting 
+status: none
 statusDuration: 10
 collidesTiles: true
 collidesTeam: false
@@ -111,7 +111,7 @@ reloadMultiplier: 1
 recoil: 0
 knockback: 0.01
 hitTiles: true
-status: melting 
+status: none
 statusDuration: 10
 collidesTiles: true
 collidesTeam: false
@@ -124,9 +124,9 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 25
+lifetime: 30
 //Moove Area
-speed: 1
+speed: 1.5
 damage: 1
 hitSize: 8
 drawSize: 12
@@ -143,7 +143,7 @@ reloadMultiplier: 1
 recoil: 0
 knockback: 0.01
 hitTiles: true
-status: melting 
+status: none
 statusDuration: 10
 collidesTiles: true
 collidesTeam: false
@@ -156,9 +156,9 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 23
+lifetime: 32
 //Moove Area
-speed: 1.2
+speed: 1.4
 damage: 1
 hitSize: 8
 drawSize: 12
@@ -175,7 +175,7 @@ reloadMultiplier: 1
 recoil: 0
 knockback: 0.01
 hitTiles: true
-status: melting 
+status: none
 statusDuration: 10
 collidesTiles: true
 collidesTeam: false
@@ -184,7 +184,7 @@ collides: true
     keepVelocity: true
     fragVelocityMin: 0.1
     fragVelocityMax: 0.5
-    fragBullets: 3 //001
+    fragBullets: 1 //001
     fragBullet: {
         type: LiquidBulletType
         liquid: luminum
@@ -194,7 +194,7 @@ collides: true
         keepVelocity: false
         }
 splashDamage: 0.4
-splashDamageRadius: 8
+splashDamageRadius: 6
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
@@ -207,7 +207,7 @@ backColor: 000000 // Color of back sprite.
 
         }
 splashDamage: 0.4
-splashDamageRadius: 8
+splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
@@ -220,7 +220,7 @@ backColor: ff0000 // Color of back sprite.
 
         }
 splashDamage: 0.4
-splashDamageRadius: 8
+splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
@@ -233,7 +233,7 @@ backColor: 00ffff // Color of back sprite.
 
         }
 splashDamage: 0.4
-splashDamageRadius: 8
+splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
@@ -246,7 +246,7 @@ backColor: ff00ff // Color of back sprite.
 
         }
 splashDamage: 0.4
-splashDamageRadius: 8
+splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
