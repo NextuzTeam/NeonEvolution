@@ -9,7 +9,7 @@ type: groundUnit
   hitsize: 5
   mass: 5.75
   flying: false
-  health: 6500
+  health: 2500
 
 immunities: [
   corroded
@@ -38,7 +38,7 @@ type: BasicBulletType
 lifetime: 120
 //Moove Area
 speed: 4
-damage: 1500
+damage: 1200
 hitSize: 12
 drawSize: 40
 drag: 0
@@ -67,7 +67,7 @@ collides: true
     fragBullet: {
         type: LiquidBulletType
         liquid: luminum
-        lifetime: 2700
+        lifetime: 1800
         speed: 1
         damage: 150
         pierce: true
