@@ -35,7 +35,7 @@ damage: 1
 hitSize: 8
 drawSize: 12
 drag: 0
-pierce: true
+pierce: false
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
@@ -67,7 +67,7 @@ damage: 1
 hitSize: 8
 drawSize: 12
 drag: 0
-pierce: true
+pierce: false
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
@@ -99,7 +99,7 @@ damage: 1
 hitSize: 8
 drawSize: 12
 drag: 0
-pierce: true
+pierce: false
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
@@ -131,7 +131,7 @@ damage: 1
 hitSize: 8
 drawSize: 12
 drag: 0
-pierce: true
+pierce:false
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
@@ -163,7 +163,7 @@ damage: 1
 hitSize: 8
 drawSize: 12
 drag: 0
-pierce: true
+pierce: false
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
@@ -191,6 +191,7 @@ collides: true
         damage: 3
         lifetime: 75
         speed: 3
+        pierce: true
         keepVelocity: false
         }
 splashDamage: 0.4
