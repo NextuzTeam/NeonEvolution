@@ -1,5 +1,6 @@
 type: material
 name: Nano
+description: it shynes like neon.. but is green! And can do much more stuff!
 hardness: 5
 cost: 5
 color: 4fe36a
