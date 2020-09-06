@@ -3,31 +3,31 @@ name: Aurora
 description: A turret that uses neon to shoot fireworks.
 health: 1650
 size: 2
-reload: 120
+reload: 360
 range: 400
 maxAmmo: 5 //default is 30
 ammoUseEffect: shellEjectSmall
-inaccuracy: 10
+inaccuracy: 20
 buildCostMultiplier: 0.2
 rotatespeed: 8
 ammo: {
 
 	neon:{
   type: MissileBulletType
-  lifetime: 45
+  lifetime: 65
   speed: 3
   damage: 5
   splashDamageRadius: 14
   splashDamage: 20
   frontColor: ffff00
   backColor: 00ffff
-  homingPower: 0.035
+  homingPower: 0.4
   homingRange: 250
   fragBullets: 5
   ammoMultiplier: 1
   fragBullet: {
     type: BasicBulletType
-lifetime: 9
+lifetime: 20
 //Moove Area
 speed: 1
 damage: 4
@@ -59,7 +59,39 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 10
+lifetime: 25
+//Moove Area
+speed: 1
+damage: 4
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: true
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: melting 
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 3 //001
+    fragBullet: {
+        
+    type: BasicBulletType
+lifetime: 28
 //Moove Area
 speed: 1
 damage: 4
@@ -91,7 +123,7 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 10
+lifetime: 19
 //Moove Area
 speed: 1
 damage: 4
@@ -123,39 +155,7 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 9
-//Moove Area
-speed: 1
-damage: 4
-hitSize: 8
-drawSize: 12
-drag: 0
-pierce: true
-hitEffect: shootSmall
-despawnEffect: shootSmall
-shootEffect: shootSmall
-smokeEffect: shootSmallSmoke
-hitSound: null
-inaccuracy: 0.5 //in degrees
-ammoMultiplier: 1
-reloadMultiplier: 1
-recoil: 0
-knockback: 0.01
-hitTiles: true
-status: melting 
-statusDuration: 10
-collidesTiles: true
-collidesTeam: false
-collidesAir: true
-collides: true
-    keepVelocity: true
-    fragVelocityMin: 0.1
-    fragVelocityMax: 0.5
-    fragBullets: 2 //001
-    fragBullet: {
-        
-    type: BasicBulletType
-lifetime: 9
+lifetime: 20
 //Moove Area
 speed: 1.2
 damage: 4
