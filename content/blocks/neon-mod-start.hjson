@@ -1,0 +1,7 @@
+biuldVisibility: debugOnly
+name: Neon World
+description: Start your journey here.
+requirments: [
+  neon/5
+]
+research: core-shard
