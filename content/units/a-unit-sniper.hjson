@@ -19,7 +19,7 @@ immunities: [
 
   weapon: {
     name: a-unit-sniper-blaster
-    length: 7.7
+    length: 10.7
     ignoreRotation: true
     reload: 220
     width: 3.5
@@ -27,7 +27,7 @@ immunities: [
     recoil: 2.25
     shake: 1.5
     shots: 2
-    spacing: 13 //weapon until unity center distance
+    spacing: 17 //weapon until unity center distance
     shotDelay: 35
     ejectEffect: shellEjectSmall
     targetDistance: 0
