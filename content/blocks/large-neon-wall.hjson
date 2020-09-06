@@ -1,5 +1,7 @@
 type: SolarGenerator //old type was wall... This makes this blocks produce energy from nothing
 
+breakable: true
+outputsPower: true
 hasPower: true
 hasLiquids: false
 powerProduction: 0.5 // 30 energy per second
