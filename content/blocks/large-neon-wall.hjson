@@ -1,5 +1,7 @@
 type: SolarGenerator //old type was wall... This makes this blocks produce energy from nothing
 
+hasPower: true
+hasLiquids: false
 powerProduction: 0.25 // 15 energy per second
 consumes: { // don't consumes nothing
 }
