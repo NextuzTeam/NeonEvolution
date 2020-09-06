@@ -1,4 +1,4 @@
-type: Wall //old type was wall... This makes this blocks produce energy from nothing
+type: SolarGenerator //old type was wall... This makes this blocks produce energy from nothing
 
 update: true
 breakable: true
