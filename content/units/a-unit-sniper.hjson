@@ -40,7 +40,7 @@ lifetime: 120
 speed: 4
 damage: 1500
 hitSize: 12
-drawSize: 68
+drawSize: 40
 drag: 0
 pierce: true
 hitEffect: shootSmall
