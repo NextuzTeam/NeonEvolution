@@ -4,7 +4,7 @@ description: A turret that uses neon to shoot fireworks.
 health: 1650
 size: 2
 reload: 120
-range: 250
+range: 400
 maxAmmo: 5 //default is 30
 ammoUseEffect: shellEjectSmall
 inaccuracy: 10
@@ -14,7 +14,7 @@ ammo: {
 
 	neon:{
   type: MissileBulletType
-  lifetime: 12
+  lifetime: 45
   speed: 3
   damage: 5
   splashDamageRadius: 14
@@ -27,7 +27,7 @@ ammo: {
   ammoMultiplier: 1
   fragBullet: {
     type: BasicBulletType
-lifetime: 5
+lifetime: 9
 //Moove Area
 speed: 1
 damage: 4
@@ -59,7 +59,7 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 5
+lifetime: 10
 //Moove Area
 speed: 1
 damage: 4
@@ -91,7 +91,7 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 5
+lifetime: 10
 //Moove Area
 speed: 1
 damage: 4
@@ -123,7 +123,7 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 5
+lifetime: 9
 //Moove Area
 speed: 1
 damage: 4
@@ -155,9 +155,9 @@ collides: true
     fragBullet: {
         
     type: BasicBulletType
-lifetime: 5
+lifetime: 9
 //Moove Area
-speed: 1
+speed: 1.2
 damage: 4
 hitSize: 8
 drawSize: 12
@@ -183,12 +183,12 @@ collides: true
     keepVelocity: true
     fragVelocityMin: 0.1
     fragVelocityMax: 0.5
-    fragBullets: 2 //001
+    fragBullets: 3 //001
     fragBullet: {
         type: LiquidBulletType
         liquid: luminum
         damage: 5
-        lifetime: 60
+        lifetime: 75
         speed: 2
         keepVelocity: false
         }
