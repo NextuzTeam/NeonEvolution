@@ -5,9 +5,11 @@ breakable: true
 outputsPower: true
 consumesPower: false
 hasPower: true
+sync: true
 hasLiquids: false
 powerProduction: 0.5 // 30 energy per second
 consumes: { // don't consumes nothing
+   power: 0
 }
 
 category: defense
