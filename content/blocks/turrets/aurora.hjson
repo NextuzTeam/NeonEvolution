@@ -9,7 +9,7 @@ maxAmmo: 10 //default is 30
 ammoPerShot: 10
 ammoUseEffect: shellEjectSmall
 inaccuracy: 30
-buildCostMultiplier: 0.2
+buildCostMultiplier: 0.1
 rotatespeed: 8
 ammo: {
 
@@ -262,8 +262,8 @@ backColor: ffff00 // Color of back sprite.
   }
 }
 requirements: [
-  neon/150
-  lead/200
+  neon/250
+  lead/50
   titanium/100
 ]
 category: turret
