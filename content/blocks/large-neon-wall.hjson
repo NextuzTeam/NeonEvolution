@@ -1,0 +1,10 @@
+type: wall
+category: defense
+name: Large Neon Wall
+description: A large wall made out of Neon,  have a little suply of light.
+health: 4000
+size: 2
+research: neon-wall
+requirements: [
+ neon/28
+]
