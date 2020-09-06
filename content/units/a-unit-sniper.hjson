@@ -39,8 +39,8 @@ lifetime: 120
 //Moove Area
 speed: 4
 damage: 1500
-hitSize: 6
-drawSize: 32
+hitSize: 12
+drawSize: 68
 drag: 0
 pierce: true
 hitEffect: shootSmall
