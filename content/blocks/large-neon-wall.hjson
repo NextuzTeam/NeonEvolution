@@ -2,7 +2,7 @@ type: SolarGenerator //old type was wall... This makes this blocks produce energ
 
 hasPower: true
 hasLiquids: false
-powerProduction: 0.25 // 15 energy per second
+powerProduction: 0.5 // 30 energy per second
 consumes: { // don't consumes nothing
 }
 
@@ -14,5 +14,5 @@ health: 4000
 size: 2
 research: neon-wall
 requirements: [
- neon/28
+ neon/30
 ]
