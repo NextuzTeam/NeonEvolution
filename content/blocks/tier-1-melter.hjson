@@ -24,6 +24,6 @@ requirements: [
   titanium/20
 ]
 category: crafting
-research: neontizer
+research: light-infuser
 idleSound: respawning
 idleSoundVolume: 0.5
