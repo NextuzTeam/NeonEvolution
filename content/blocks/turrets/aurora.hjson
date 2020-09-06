@@ -186,7 +186,7 @@ collides: true
     fragBullets: 2 //001
     fragBullet: {
         type: LiquidBulletType
-        liquid: neon
+        liquid: luminum
         damage: 5
         lifetime: 60
         speed: 2
