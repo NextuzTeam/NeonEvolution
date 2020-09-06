@@ -1,4 +1,5 @@
-type: Wall //old type was wall... This makes this blocks produce energy from nothing
+type: SolarGenerator
+//old type was wall... This makes this blocks produce energy from nothing
 
 update: true
 breakable: true
@@ -8,9 +9,10 @@ solid: true
 hasPower: true
 sync: true
 hasLiquids: false
-powerProduction: 0.5 // 30 energy per second
-consumes: { // don't consumes nothing
-}
+powerProduction: 0.5
+ // 30 energy per second
+// consumes: { // don't consumes nothing
+// }
 
 category: defense
    //this makes the block stays within the walls even not been one on type!
