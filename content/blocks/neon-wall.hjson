@@ -1,0 +1,9 @@
+type: wall
+category: defense
+name: Neon Wall
+description: A wall made of Neon, have a little light source.
+health: 850
+research: thorium-wall
+requirements: [
+  neon/10
+]
