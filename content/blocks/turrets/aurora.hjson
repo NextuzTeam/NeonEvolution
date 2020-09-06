@@ -15,7 +15,7 @@ ammo: {
 
 	neon:{
   type: MissileBulletType
-  lifetime: 65
+  lifetime: 130
   speed: 3
   damage: 1
   splashDamageRadius: 14
@@ -202,8 +202,8 @@ incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffffff // Color of front sprite.
-backColor: 000000 // Color of back sprite.
+frontColor: ff0000 // Color of front sprite.
+backColor: 00ff00 // Color of back sprite.
 // bulletSprite:
 
         }
