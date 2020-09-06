@@ -1,7 +1,7 @@
 
 
 type: groundUnit
-  name: [2b0a57]Luminum [f595da]Sniper
+  name: Luminum Sniper
   description: A unit that you do not want to fight against... When shooting can make an entire mess with luminum
   maxVelocity: 0.3
   speed: 0.1
