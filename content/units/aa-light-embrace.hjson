@@ -1,6 +1,6 @@
 type: groundUnit
   name: Light Embracer
-  description: Shoots light bullets
+  description: Shoots balls of neon lights that splits fire everywhere
   maxVelocity: 0.38
   speed: 0.15
   drag: 0.1
@@ -77,7 +77,7 @@ incendAmount: 3
 incendSpread: 15
 incendChance: 70
 bulletWidth: 5
-bulletHeight: 15
+bulletHeight: 19
 bulletSprite: neon-evolution-aa-light-embrace-base
 bulletShrink: 0.5 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
 frontColor: ffffff // Color of front sprite.
