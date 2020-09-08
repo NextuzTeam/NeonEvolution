@@ -13,7 +13,7 @@ loadout: basic Nucleus
 requirements: [
   {
     type: ZoneWave
-    zone: desolate-rift
+    zone: desolateRift
     wave: 30
   }
   //{
