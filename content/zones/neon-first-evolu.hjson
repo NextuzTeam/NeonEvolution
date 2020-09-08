@@ -1,0 +1,42 @@
+name: Neon First Evolution
+description: Time to take control and learn how to deal with and against the first neon evolution!
+startingItems:
+[
+  copper/3000
+  lead/2000
+  silicon/200
+  thorium/500
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
+loadout: basic Nucleus
+requirements: [
+  {
+    type: ZoneWave
+    zone: desolate-rift
+    wave: 30
+  }
+  //{
+    //type: Unlock
+    //block: 
+  //}  
+  {
+    type: Unlock
+    block: enlighther
+  }
+]
+configureObjective: {
+   type: Launched
+   zone: neon-first-evolu
+}
+
+resources: [
+  copper
+  // my first material
+  //neon
+  lead
+  coal
+  scrap
+  titanium
+  thorium
+]
