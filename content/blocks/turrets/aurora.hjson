@@ -265,6 +265,7 @@ requirements: [
   neon/250
   lead/50
   titanium/100
+  neon-copper/50
 ]
 category: turret
 research: enlighther
