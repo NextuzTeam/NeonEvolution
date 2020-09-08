@@ -95,7 +95,7 @@ frontColor: ffffff // Color of front sprite.
 backColor: ffffff // Color of back sprite.
 // bulletSprite:
 }
- }
+
 }
 requirements: [
   neon/30
