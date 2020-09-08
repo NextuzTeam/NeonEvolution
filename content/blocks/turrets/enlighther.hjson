@@ -1,1 +1,106 @@
 
+type: DoubleTurret
+name: Enlighther
+description: A very well ranged turret! But very low fire rate... Puts fire on hit.
+health: 250
+size: 1
+reload: 1200
+range: 6940
+maxAmmo: 2 //default is 30
+ammoPerShot: 1
+ammoUseEffect: shellEjectSmall
+inaccuracy: 90
+buildCostMultiplier: 0.1
+rotatespeed: 19
+ammo: {
+	neon:{
+  type: MissileBulletType
+  lifetime: 600
+  speed: 2.4
+  damage: 1
+  splashDamageRadius: 14
+  splashDamage: 20
+  frontColor: ffffff
+  backColor: ffffff
+  homingPower: 0.01
+  homingRange: 9000
+  fragBullets: 2
+  bulletSprite: neon-evolution-enlighther
+  ammoMultiplier: 1
+  fragBullet: {
+    type: MissileBulletType
+lifetime: 900
+//Moove Area
+speed: 1
+damage: 1
+homingPower: 0.01
+homingRange: 9000
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: true
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: none
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 1 //001
+    fragBullet: {
+       
+        type: LiquidBulletType
+        liquid: luminum
+        damage: 1
+        lifetime: 450
+        speed: 3
+        pierce: true
+        keepVelocity: false
+        }
+splashDamage: 0
+splashDamageRadius: -1
+incendAmount: 3
+incendSpread: 17
+incendChance: 40
+bulletWidth: 10
+bulletHeight: 10
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ff0000 // Color of front sprite.
+backColor: ffff00 // Color of back sprite.
+// bulletSprite:
+
+        }
+splashDamage: 0
+splashDamageRadius: -1
+incendAmount: 5
+incendSpread: 19
+incendChance: 125
+bulletWidth: 15
+bulletHeight: 15
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+// bulletSprite:
+}
+ }
+}
+requirements: [
+  neon/30
+  lead/50
+  copper/70
+]
+category: turret
+research: neon-mod-start
