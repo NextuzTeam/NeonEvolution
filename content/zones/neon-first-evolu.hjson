@@ -9,7 +9,7 @@ startingItems:
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
-loadout: basic Nucleus
+loadout: basicNucleus
 requirements: [
   {
     type: ZoneWave
