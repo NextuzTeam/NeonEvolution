@@ -2,7 +2,7 @@ type: wall
 category: defense
 name: Neon Wall
 description: A wall made of Neon, have a little light source.
-health: 800
+health: 845
 research: neon-mod-start
 requirements: [
   neon/10
