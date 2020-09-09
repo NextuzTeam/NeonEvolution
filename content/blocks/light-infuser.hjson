@@ -16,8 +16,6 @@ consumes: {
 }
 requirements: [
   lead/50
-  titanium/80
-  silicon/60
   metaglass/50
 ]
 category: crafting
