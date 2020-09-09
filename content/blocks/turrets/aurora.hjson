@@ -194,7 +194,7 @@ collides: true
         pierce: true
         keepVelocity: false
         }
-splashDamage: 0.4
+splashDamage: 1.4
 splashDamageRadius: 6
 incendAmount: 0
 incendSpread: 12
@@ -207,7 +207,7 @@ backColor: 00ff00 // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 0.4
+splashDamage: 1.4
 splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
@@ -220,7 +220,7 @@ backColor: ff0000 // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 0.4
+splashDamage: 1.4
 splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
@@ -233,7 +233,7 @@ backColor: 00ffff // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 0.4
+splashDamage: 1.4
 splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
@@ -246,7 +246,7 @@ backColor: ff00ff // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 0.4
+splashDamage: 1.4
 splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 12
@@ -263,6 +263,7 @@ backColor: ffff00 // Color of back sprite.
 }
 requirements: [
   neon/250
+  neon-copper/50
   lead/50
   titanium/100
 ]
