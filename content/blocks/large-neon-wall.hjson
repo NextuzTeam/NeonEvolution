@@ -18,7 +18,7 @@ category: defense
    //this makes the block stays within the walls even not been one on type!
 name: Large Neon Wall
 description: A large wall made out of Neon,  it's shiny produces a little bit of reflective energy like a solar panel... But it's a wall!
-health: 4000
+health: 3200
 size: 2
 research: neon-wall
 requirements: [
