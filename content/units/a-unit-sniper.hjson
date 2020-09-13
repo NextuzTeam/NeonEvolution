@@ -1,6 +1,6 @@
 
 
-type: groundUnit
+type: mechUnit
   name: Luminum Sniper
   description: A unit that you do not want to fight against... When shooting can make an entire mess with luminum
   maxVelocity: 0.3
