@@ -11,7 +11,7 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 30
 buildCostMultiplier: 0.1
 rotatespeed: 19
-ammo: {
+ammoTypes: {
 
 	neon:{
   type: MissileBulletType
