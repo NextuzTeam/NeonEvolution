@@ -15,7 +15,7 @@ immunities: [
   burning
 ]
 
-  weapon: {
+  weapons: [{
     name: aa-light-blaster
     length: 5.7
     ignoreRotation: true
@@ -71,6 +71,7 @@ collides: true
         damage: 20
         keepVelocity: false
         }
+  }]
 splashDamage: 0
 splashDamageRadius: -1
 incendAmount: 3
