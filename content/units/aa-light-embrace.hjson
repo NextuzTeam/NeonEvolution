@@ -1,4 +1,4 @@
-type: groundUnit
+type: mechUnit
   name: Light Embracer
   description: Shoots balls of neon lights that splits fire everywhere
   maxVelocity: 0.38
