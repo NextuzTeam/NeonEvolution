@@ -1,0 +1,7 @@
+type: resource
+name: Solified Luminum
+description: ???
+radioactivity: 5
+explosiveness: 0.2
+flamability: 0.1
+color: ffffff
