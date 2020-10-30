@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Atomic Mixer T-1
+description: Uses nanotecnology to mix substances.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+  power: 13
+  items: {
+    items: [
+      neon/1
+      metaglass/1
+]
+    liquids: [
+      luminum/0.5
+    ]
+  }
+}
+requirements: [
+  lead/50
+  titanium/50
+  silicon/100
+]
+category: crafting
+research: light-infuser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: solidified-luminum/1
